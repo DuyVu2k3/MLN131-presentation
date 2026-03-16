@@ -40,7 +40,7 @@ export function ConceptSection() {
             whileHover={{ scale: 1.05 }}
           >
             <span className="text-xl">📖</span>
-            <span>Phần 1 (1.5 phút)</span>
+            <span>Phần 1</span>
           </motion.div>
           
           <h2 className="text-4xl sm:text-5xl font-bold mb-6">
