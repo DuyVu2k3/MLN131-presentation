@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
-import { ChevronDown, Users, BookOpen, Brain, Heart, Flag, Home } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { Hero } from "./components/Hero";
 import { ConceptSection } from "./components/ConceptSection";
 import { PrinciplesSection } from "./components/PrinciplesSection";
 import { PsychologySection } from "./components/PsychologySection";
 import { ConclusionSection } from "./components/ConclusionSection";
+import { ReviewQuestionsSection } from "./components/ReviewQuestionsSection";
 import { Navigation } from "./components/Navigation";
 import { Footer } from "./components/Footer";
 import { BackToTop } from "./components/BackToTop";
@@ -21,7 +22,7 @@ export default function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "concept", "principles", "psychology", "conclusion"];
+      const sections = ["home", "concept", "principles", "psychology", "conclusion", "review"];
       const scrollPosition = window.scrollY + window.innerHeight / 2;
 
       for (const section of sections) {
@@ -75,6 +76,10 @@ export default function App() {
         
         <section id="conclusion">
           <ConclusionSection />
+        </section>
+        
+        <section id="review">
+          <ReviewQuestionsSection />
         </section>
       </main>
 

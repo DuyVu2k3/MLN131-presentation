@@ -199,7 +199,7 @@ export function ConclusionSection() {
               >
                 🙏
               </motion.div>
-              <h3 className="text-3xl font-bold mb-4">Cảm ơn quý vị đã lắng nghe</h3>
+              <h3 className="text-3xl font-bold mb-4">Cảm ơn thầy và các bạn đã lắng nghe</h3>
               <p className="text-white/70 text-lg">
                 Chúc các bạn thành công và luôn tự hào về bản sắc dân tộc Việt Nam
               </p>
