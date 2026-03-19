@@ -27,18 +27,18 @@ export function PrinciplesSection() {
 
   const trends = [
     {
-      title: "Dân tộc hóa",
+      title: "Xu hướng tách ra để độc lập",
       emoji: "🏛️",
       description: "Lật đổ chủ nghĩa thực dân, giành độc lập, xây dựng nhà nước dân tộc.",
       example: "Ví dụ: Cách mạng Tháng Tám 1945 ở Việt Nam.",
-      image: "https://lh6.googleusercontent.com/proxy/ERnyG921-meNEcQ7AZqkq8waeU71IOkM6l75NyRBVGKs2mZZxVu0nFQ7BQjF7dGxCZSDxyMmI-Go4K6U8AvJNeTDst8LQmZc9VV37I4g2kXB560c86M8vOBV0di-UpeCLvvxBdT7KnHeIqvJmcnF2FAlqra1ZkXXAxq5eyuoQN38iQd-aLCU"
+      image: "https://file3.qdnd.vn/data/images/0/2022/07/25/huyentrang_km/2.jpg"
     },
     {
-      title: "Quốc tế hóa",
+      title: "Liên hiệp lại tạo nên sự xích lại gần nhau giữa các dân tộc nhờ sự phát triển của chủ nghĩa tư bản, kinh tế và khoa học",
       emoji: "🌐",
       description: "Hợp tác quốc tế, hòa bình, phát triển chung, xóa bỏ rào cản biên giới.",
-      example: "Ví dụ: Việt Nam tham gia hiệp định CPTPP.",
-      image: "https://bcp.cdnchinhphu.vn/Uploaded/buithuhuong/2021_09_23/2657_20-hq0103.anh_bai_CPTPP.jpg"
+      example: "Ví dụ: Sự ra đời của Liên bang Xô viết 1922.",
+      image: "https://img.cand.com.vn/resize/600x600/NewFiles/Images/2023/01/04/lien_xo_2-1672836345787.jpg"
     }
   ];
 
